@@ -1,6 +1,6 @@
 # Analysis code for "Quantifying GPCR - G protein binding affinity in living cells via fluorescence image cumulant analysis"
 
-Starting from two-channel tiff time series, a typical workflow will use the following scripts and notebooks
+### Starting from two-channel tiff time series, a typical workflow will use the following scripts and notebooks:
 
 - imageprep.ipynb – image segmentation
 - batch_get_cumulants.py - segmented image cumulant calculations
@@ -10,3 +10,6 @@ Starting from two-channel tiff time series, a typical workflow will use the foll
 - Check_results.ipynb - results verification
 - Combine_results.ipynb - convenience plotting
 
+### Simulations can be used to test the workflow as well
+ 
+ - interaction_image.ipynb - simulate 2 channel images and estimate KD using cumulant analysis. 
